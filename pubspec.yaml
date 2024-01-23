@@ -1,0 +1,74 @@
+name: amazing_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.4
+  camera: ^0.10.0+4
+  image: ^3.2.2
+  lottie: ^1.4.3
+  google_sign_in: ^5.4.2
+  flutter_svg: ^1.1.6
+  image_picker: ^0.8.6
+  flutter_face_api: ^4.1.0
+  dio: ^4.0.6
+  onboarding: ^3.1.0
+  shared_preferences: ^2.0.15
+  googleapis: ^9.2.0
+  googleapis_auth: ^1.3.1
+  url_launcher: ^6.1.6
+  flutter_secure_storage: ^6.0.0
+  flutter_document_picker: ^5.1.0
+  mime_type: ^1.0.0
+  path_provider: ^2.0.11
+  intl: ^0.17.0
+  flutter_downloader: ^1.9.1
+  open_file: ^3.2.1
+  permission_handler: ^10.2.0
+  permission_handler_android: ^10.2.0
+  # open_document: ^1.0.4
+  # path_provider: ^2.0.11
+  # flutter_face_api_beta: ^0.0.71
+  syncfusion_flutter_pdfviewer: ^20.3.57
+  aes_crypt_null_safe: ^2.0.2
+  flutter_spinkit: ^5.1.0
+  cached_network_image: ^3.2.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  assets:
+    - assets/animations/
+    - assets/images/
+    # - assets/pictures/
+  fonts:
+    - family: DancingScript
+      fonts:
+        - asset: fonts/DancingScript.ttf
+    - family: Montserrat
+      fonts:
+        - asset: fonts\Montserrat-Bold.ttf
+          weight: 700
+        - asset: fonts\Montserrat-Light.ttf
+          weight: 100
+        - asset: fonts\Montserrat-Medium.ttf
+          weight: 500
+        - asset: fonts\Montserrat-Regular.ttf
+
+  uses-material-design: true
